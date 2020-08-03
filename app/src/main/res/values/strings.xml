@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">DressMe</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Add</string>
+    <string name="title_notifications">Closet</string>
+    <string name="title_activity_add_photo_tags">AddPhotoTagsActivity</string>
+    <string name="title_activity_my_closet">MyCloset</string>
+    <string name="title_activity_basic">BasicActivity</string>
+    <string name="title_activity_log_screen">LogScreen</string>
+    <string name="title_activity_tag_screens2">TagScreens2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_onboarding">OnboardingActivity</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">DressMe!</string>
+    <string name="slide_1_desc">The app that will help you to choose your daily oufit</string>
+
+    <string name="slide_2_title">Random Outfit</string>
+    <string name="slide_2_desc">Everytime you enter the app a random recommendation will be displayed, BUT always considering your previous choices!</string>
+
+    <string name="slide_3_title">Swipe</string>
+    <string name="slide_3_desc">Swipe left for an outfit you will never wear or right if you don\'t feel like wearing it today!</string>
+
+    <string name="slide_4_title">Tag your clothing!</string>
+    <string name="slide_4_desc">When tagging you new clothing, DressMe will learn from it and will only recommend you what you like!</string>
+
+    <string name="slide_5_title">World Travel</string>
+    <string name="slide_5_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_profile_points">ProfilePoints</string>
+</resources>

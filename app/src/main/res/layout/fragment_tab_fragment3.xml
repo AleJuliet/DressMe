@@ -1,0 +1,141 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.constraint.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:id="@+id/topbottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:animateLayoutChanges="true"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="7dp"
+            android:gravity="center_horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:onClick="onClick2"
+                android:id="@+id/coldf"
+                android:gravity="center_horizontal"
+                android:background="@drawable/circle_background">
+
+
+                <ImageView
+                    android:id="@+id/cold"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/cold" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/coldtext"
+                android:layout_width="wrap_content"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:layout_height="wrap_content"
+                android:text="Cold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="7dp"
+            android:gravity="center_horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:onClick="onClick2"
+                android:id="@+id/warmf"
+                android:gravity="center_horizontal"
+                android:background="@drawable/circle_background">
+
+
+                <ImageView
+                    android:id="@+id/warm"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/warm" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/warmtext"
+                android:layout_width="wrap_content"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:layout_height="wrap_content"
+                android:text="Warm"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="7dp"
+            android:gravity="center_horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:onClick="onClick2"
+                android:id="@+id/allwf"
+                android:gravity="center_horizontal"
+                android:background="@drawable/circle_background">
+
+
+                <ImageView
+                    android:id="@+id/allw"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/allw" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/alltext"
+                android:layout_width="wrap_content"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:layout_height="wrap_content"
+                android:text="All"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.ConstraintLayout>
