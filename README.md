@@ -23,4 +23,4 @@ Screen to add a piece of clothing and its corresponding tags
 ![alt text](https://github.com/AleJuliet/DressMe/blob/master/readmefile/secondscreen.png?s=300)
 
 ## Algorithm for Recommender system
-This was developed in a different system, as part of the testing of the prototype. The algorithm impleted used a Content based approach. 
+This was developed in a different system, as part of the testing of the prototype. The algorithm impleted used a Content based approach (https://github.com/AleJuliet/alejuliet.github.io). 
