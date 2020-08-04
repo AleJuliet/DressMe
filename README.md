@@ -2,6 +2,7 @@
 
 Android application that provides an optimized solution to help people picking up their daily outfit.
 This is an Android Application made for the course Advance Project from the Technical University of Denmark (DTU).
+
 This was developed in Oct-Nov 2018.
 
 ## Current status
